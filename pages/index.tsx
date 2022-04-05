@@ -11,8 +11,6 @@ interface Props {
 }
 
 const HomePage: NextPage<Props> = ({ pokemons }) => {
-  console.log(pokemons[0])
-
   return (
     <Layout title="Listado de Pokemons">
       <Grid.Container gap={2} justify="flex-start" css={{ mt: 12, mb: 12 }}>
